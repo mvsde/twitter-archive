@@ -5,20 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>mvsde’s Twitter Archive</title>
 		<meta name="description" content="A read-only indieweb self-hosted archive of mvsde’s tweets." />
-		<script>
-		if("classList" in document.documentElement) {
-			document.documentElement.classList.add("has-js");
-		}
-		</script>
 
-		
-			<link rel="stylesheet" href="/assets/chartist.min.css">
-			<link rel="stylesheet" href="/assets/chart.css">
-			<script src="/assets/chartist.min.js"></script>
-			<script src="/assets/chart.js"></script>
-			<link rel="profile" href="https://microformats.org/profile/hatom">
-			
-
+		<link rel="profile" href="https://microformats.org/profile/hatom">
 		<link rel="stylesheet" href="/assets/style.css">
 		<script src="/assets/script.js" type="module"></script>
 		<script src="/assets/is-land.js" type="module"></script>
@@ -36,33 +24,151 @@
 		<main>
 			
 		<h2 class="tweets-primary-count">
-			<span class="tweets-primary-count-num">18,054</span> tweets
+			<span class="tweets-primary-count-num">18,082</span> tweets
 		</h2>
 
-		<div class="js">
-			<h2>Search Tweets:</h2>
-			<div class="tweets-search">
-				<is-land on:visible>
-					<template data-island>
-						<div id="search" class="tweets-search"></div>
-						<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
-						<script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });"></script>
-					</template>
-				</is-land>
-			</div>
-		</div>
+		<is-land on:visible on:save-data="false">
+			<template data-island>
+				<h2>Search Tweets:</h2>
+				<div class="tweets-search">
+					<div id="search" class="tweets-search"></div>
+					<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+					<script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });"></script>
+				</div>
+			</template>
+		</is-land>
 
 		<div>
 			<h2><a href="/recent/">Recent:</a></h2>
-			<div class="twtr-sentiment twtr-sentiment-max js">
-				<div class="twtr-sentiment-chart ct-chart"></div>
-				<div class="twtr-sentiment-label">
-					⬅️ New
-					<span>⬆️ 🙂<br>⬇️ 🙁</span>
-				</div>
-			</div>
+
 			<ol class="tweets tweets-linear-list h-feed hfeed" id="tweets-recent-home">
-				<li id="1603933324606595072" class="tweet h-entry" data-pagefind-index-attrs="id">
+				<li id="1609625165436002306" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">Some new information about #Vue’s upcoming “Vapor Mode”, a compilation strategy for running Vue components without a Virtual DOM:
+
+<a href="https://blog.vuejs.org/posts/2022-year-in-review.html#vapor-mode" class="tweet-url" data-pagefind-index-attrs="href">blog.vuejs.org/posts/2022-year-in-review.html#vapor-mode</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://blog.vuejs.org/posts/2022-year-in-review.html#vapor-mode"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fblog.vuejs.org%2Fposts%2F2022-year-in-review.html%23vapor-mode/small/onerror/" alt="OpenGraph image for blog.vuejs.org/posts/2022-year-in-review.html#vapor-mode" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
+			<span class="tweet-metadata">
+				<a href="/1609625165436002306/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1609625165436002306" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2023-01-01T18:58:39.000Z">2023 Jan 1</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1609591909839949827" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">The one that celebrates Star Wars and has actual fun engaging with the stories. <a href="https://twitter.com/WookOfficial/status/1609591224314241026" class="tweet-username" data-pagefind-index-attrs="href">@WookOfficial/1609591224314241026</a></div>
+			<span class="tweet-metadata">
+				<a href="/1609591909839949827/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1609591909839949827" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2023-01-01T16:46:30.000Z">2023 Jan 1</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">7</strong> 🙂</span>
+			</span>
+		</li><li id="1609143747085799425" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">I used a #CSS Custom Property toggle to greatly reduce the repetition for theme-related variables for my website.
+
+This works way better than I anticipated 😅
+
+<a href="https://github.com/mvsde/website/blob/main/src/css/global/variables.css" class="tweet-url" data-pagefind-index-attrs="href">github.com/mvsde/website/blob/main/src/css/global/variables.css</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://github.com/mvsde/website/blob/main/src/css/global/variables.css"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fgithub.com%2Fmvsde%2Fwebsite%2Fblob%2Fmain%2Fsrc%2Fcss%2Fglobal%2Fvariables.css/small/onerror/" alt="OpenGraph image for github.com/mvsde/website/blob/main/src/css/global/variables.css" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
+			<span class="tweet-metadata">
+				<a href="/1609143747085799425/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1609143747085799425" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-31T11:05:40.000Z">2022 Dec 31</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
+			</span>
+		</li><li id="1609099740288802816" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">#TheWitcherBloodOrigin is stunningly beautiful. Like Lord of the Rings level of vistas. The sweeping landscape shots alone are worth the watch 😅
+
+The story itself of course is also nice. And as of episode 2 there’s a #queer couple, a person speaking sign language, and an (1/2)</div>
+			<span class="tweet-metadata">
+				<a href="/1609099740288802816/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1609099740288802816" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-31T08:10:48.000Z">2022 Dec 31</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">8</strong> 🙂</span>
+			</span>
+		</li><li id="1608936973636620289" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">I thought this was a joke but it is totally real 😂
+
+<a href="https://starwars.fandom.com/wiki/MSE-6-G735Y" class="tweet-url" data-pagefind-index-attrs="href">starwars.fandom.com/wiki/MSE-6-G735Y</a> <a href="https://twitter.com/JoshGarberg/status/1608928219838943232" class="tweet-username" data-pagefind-index-attrs="href">@JoshGarberg/1608928219838943232</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://starwars.fandom.com/wiki/MSE-6-G735Y"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fstarwars.fandom.com%2Fwiki%2FMSE-6-G735Y/small/onerror/" alt="OpenGraph image for starwars.fandom.com/wiki/MSE-6-G735Y" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
+			<span class="tweet-metadata">
+				<a href="/1608936973636620289/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1608936973636620289" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-30T21:24:01.000Z">2022 Dec 30</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">3</strong> 🙂</span>
+			</span>
+		</li><li id="1608763942783836162" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">“One current employee, who requested anonymity out of fear of losing their job, describes the Berlin gigafactory as ‘total chaos’.”
+
+#Berlin #Tesla
+
+<a href="https://www.wired.co.uk/article/tesla-vacancies-staff-shortage-berlin" class="tweet-url" data-pagefind-index-attrs="href">wired.co.uk/article/tesla-vacancies-staff-shortage-berlin</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://www.wired.co.uk/article/tesla-vacancies-staff-shortage-berlin"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fwww.wired.co.uk%2Farticle%2Ftesla-vacancies-staff-shortage-berlin/small/onerror/" alt="OpenGraph image for wired.co.uk/article/tesla-vacancies-staff-shortage-berlin" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
+			<span class="tweet-metadata">
+				<a href="/1608763942783836162/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1608763942783836162" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-30T09:56:28.000Z">2022 Dec 30</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">-5</strong> 🙁</span>
+			</span>
+		</li><li id="1608730194050793472" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">Finished reading #Loveless by #AliceOseman and it definitely belongs on my “All-time Favorite Books” list.
+
+That list has gotten quite long over the past couple of years. And that’s mainly due to me reading books from way more diverse authors.</div>
+			<span class="tweet-metadata">
+				<a href="/1608730194050793472/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1608730194050793472" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-30T07:42:21.000Z">2022 Dec 30</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
+			</span>
+		</li><li id="1608571042372456448" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">Only two more #Willow episodes left. I kinda understand the bad ratings. The show is certainly a bit random and cheesy. But all the characters are so lovely and I hope there will be a second season 😊</div>
+			<span class="tweet-metadata">
+				<a href="/1608571042372456448/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1608571042372456448" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-29T21:09:56.000Z">2022 Dec 29</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">5</strong> 🙂</span>
+			</span>
+		</li><li id="1604546382622236673" class="tweet h-entry" data-pagefind-index-attrs="id">
+		
+			<div class="tweet-text e-content">I no longer actively use Twitter.
+
+You can find useful links to other platforms on <a href="https://fynn.be" class="tweet-url" data-pagefind-index-attrs="href">fynn.be</a>.<is-land on:visible><div class="tweet-medias"><template data-island><a href="https://fynn.be"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Ffynn.be/small/onerror/" alt="OpenGraph image for fynn.be" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
+			<span class="tweet-metadata">
+				<a href="/1604546382622236673/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/mvsde/status/1604546382622236673" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
+				
+				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-18T18:37:23.000Z">2022 Dec 18</time>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">1</strong> 🙂</span>
+			</span>
+		</li><li id="1603933324606595072" class="tweet h-entry" data-pagefind-index-attrs="id">
 		
 			<div class="tweet-text e-content">This photo has won the category “Current Events” in the #Unsplash Awards 2022. And I think that’s awesome!
 
@@ -155,136 +261,6 @@ Also great to see the accessibility considerations and options!<is-land on:visib
 				
 				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-14T21:12:56.000Z">2022 Dec 14</time>
 				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">4</strong> 🙂</span>
-			</span>
-		</li><li id="1603103002981564418" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">Here are 1.5 hours of The #Vergecast about the chaos that is #streaming services:
-
-<a href="https://www.theverge.com/2022/12/14/23508908/the-streaming-world-is-rapidly-changing" class="tweet-url" data-pagefind-index-attrs="href">theverge.com/2022/12/14/23508908/the-streaming-world-is-rapidly-changing</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://www.theverge.com/2022/12/14/23508908/the-streaming-world-is-rapidly-changing"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fwww.theverge.com%2F2022%2F12%2F14%2F23508908%2Fthe-streaming-world-is-rapidly-changing/small/onerror/" alt="OpenGraph image for theverge.com/2022/12/14/23508908/the-streaming-world-is-rapidly-changing" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
-			<span class="tweet-metadata">
-				<a href="/1603103002981564418/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1603103002981564418" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-14T19:01:54.000Z">2022 Dec 14</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">-2</strong> 🙁</span>
-			</span>
-		</li><li id="1602937957698224128" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">Another example why “parent” selector is not the right term for the #CSS :has() pseudo selector:
-
-<a href="https://www.bram.us/2022/12/13/quantity-queries-for-islands-of-elements-with-the-same-class-thanks-to-css-has/" class="tweet-url" data-pagefind-index-attrs="href">bram.us/2022/12/13/quantity-queries-for-islands-of-elements-with-the-same-class-thanks-to-css-has/</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://www.bram.us/2022/12/13/quantity-queries-for-islands-of-elements-with-the-same-class-thanks-to-css-has/"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fwww.bram.us%2F2022%2F12%2F13%2Fquantity-queries-for-islands-of-elements-with-the-same-class-thanks-to-css-has%2F/small/onerror/" alt="OpenGraph image for bram.us/2022/12/13/quantity-queries-for-islands-of-elements-with-the-same-class-thanks-to-css-has/" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
-			<span class="tweet-metadata">
-				<a href="/1602937957698224128/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1602937957698224128" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-14T08:06:04.000Z">2022 Dec 14</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
-			</span>
-		</li><li id="1602786424369168384" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">Great to see more and more devs embracing #tabs for code indentation. They are better for #accessibility. I wonder why spaces stuck around for so long 🤔
-
-<a href="https://chriscoyier.net/2022/12/13/tabs/" class="tweet-url" data-pagefind-index-attrs="href">chriscoyier.net/2022/12/13/tabs/</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://chriscoyier.net/2022/12/13/tabs/"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fchriscoyier.net%2F2022%2F12%2F13%2Ftabs%2F/small/onerror/" alt="OpenGraph image for chriscoyier.net/2022/12/13/tabs/" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
-			<span class="tweet-metadata">
-				<a href="/1602786424369168384/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1602786424369168384" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-13T22:03:56.000Z">2022 Dec 13</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">3</strong> 🙂</span>
-			</span>
-		</li><li id="1602738571370467328" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">I didn’t know the science behind #ClimateChange is actually this old. Literally centuries worth of research. And even now with all the additional evidence politics is still ignoring the #ClimateCrisis.
-
-<a href="https://youtu.be/GGtAilkWTtI" class="tweet-url" data-pagefind-index-attrs="href">youtu.be/GGtAilkWTtI</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://youtu.be/GGtAilkWTtI"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fyoutu.be%2FGGtAilkWTtI/small/onerror/" alt="OpenGraph image for youtu.be/GGtAilkWTtI" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
-			<span class="tweet-metadata">
-				<a href="/1602738571370467328/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1602738571370467328" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-13T18:53:47.000Z">2022 Dec 13</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
-			</span>
-		</li><li id="1602457381627199494" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">Ok that #DragonAgeAbsolution ending was just awesome and I hope we get another season.
-
-Also: is everyone in this show secretly (or sometimes not so secretly) queer? 👀 😁</div>
-			<span class="tweet-metadata">
-				<a href="/1602457381627199494/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1602457381627199494" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-13T00:16:26.000Z">2022 Dec 13</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">8</strong> 🙂</span>
-			</span>
-		</li><li id="1602312703397208064" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">Of course, #gender-inclusive language and respecting #pronouns isn’t the one solution for equality (I hope nobody thinks this). But it is for sure an important part.
-
-<a href="https://radiolingo.simplecast.com/episodes/speaking-of-gender" class="tweet-url" data-pagefind-index-attrs="href">radiolingo.simplecast.com/episodes/speaking-of-gender</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://radiolingo.simplecast.com/episodes/speaking-of-gender"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fradiolingo.simplecast.com%2Fepisodes%2Fspeaking-of-gender/small/onerror/" alt="OpenGraph image for radiolingo.simplecast.com/episodes/speaking-of-gender" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
-			<span class="tweet-metadata">
-				<a href="/1602312703397208064/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1602312703397208064" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-12T14:41:32.000Z">2022 Dec 12</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">5</strong> 🙂</span>
-			</span>
-		</li><li id="1601897572376973312" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">I spent the entire morning overhauling my #stylelint configuration. Going through the list of rules and setting up ＊everything＊ is kinda fun 😁
-
-Have to test this with a real project before release.
-
-<a href="https://github.com/pangolinjs/stylelint-config" class="tweet-url" data-pagefind-index-attrs="href">github.com/pangolinjs/stylelint-config</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://github.com/pangolinjs/stylelint-config"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fgithub.com%2Fpangolinjs%2Fstylelint-config/small/onerror/" alt="OpenGraph image for github.com/pangolinjs/stylelint-config" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
-			<span class="tweet-metadata">
-				<a href="/1601897572376973312/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1601897572376973312" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-11T11:11:57.000Z">2022 Dec 11</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">6</strong> 🙂</span>
-			</span>
-		</li><li id="1601681782793175040" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">I kinda want to redesign my website. Make it more colorful and fun. At the moment it’s all function and no form.
-
-I always think I’m not creative enough. But maybe I should should look more into IRL interfaces for inspiration 🤔</div>
-			<span class="tweet-metadata">
-				<a href="/1601681782793175040/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1601681782793175040" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-10T20:54:29.000Z">2022 Dec 10</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">4</strong> 🙂</span>
-			</span>
-		</li><li id="1601562034327396354" class="tweet h-entry" data-pagefind-index-attrs="id">
-		
-			<div class="tweet-text e-content">Stuff one never thinks about as a privileged citizen of Germany.
-
-#Kartoffelpunsch
-
-<a href="https://youtu.be/s7HrAGlni50" class="tweet-url" data-pagefind-index-attrs="href">youtu.be/s7HrAGlni50</a><is-land on:visible><div class="tweet-medias"><template data-island><a href="https://youtu.be/s7HrAGlni50"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fyoutu.be%2Fs7HrAGlni50/small/onerror/" alt="OpenGraph image for youtu.be/s7HrAGlni50" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og" onerror="this.parentNode.remove()"></a></template></div></is-land></div>
-			<span class="tweet-metadata">
-				<a href="/1601562034327396354/" class="tag tag-naked">Permalink</a>
-				<a href="https://twitter.com/mvsde/status/1601562034327396354" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
-				
-				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="/assets/icon.svg" width="52" height="52" alt="mvsde’s avatar" class="tweet-avatar"></a>
-				
-				<time class="tag tag-naked tag-lite dt-published" datetime="2022-12-10T12:58:39.000Z">2022 Dec 10</time>
-				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
 			</span>
 		</li>
 			</ol>
@@ -383,7 +359,7 @@ Maybe they should try Kena: Bridge of Spirits by <a href="https://twitter.com/em
 			</ol>
 		</div>
 
-		<h2 id="retweets">I’ve retweeted other tweets 11,153 times (61.8%)</h2>
+		<h2 id="retweets">I’ve retweeted other tweets 11,170 times (61.8%)</h2>
 		<div class="lo" style="--lo-stackpoint: 20em">
 			<div class="lo-c">
 				<h3>Most Retweeted</h3>
@@ -394,60 +370,60 @@ Maybe they should try Kena: Bridge of Spirits by <a href="https://twitter.com/em
 			<div class="lo-c">
 				<h3>Most Retweeted (Last 12 months)</h3>
 				<ol>
-					<li><a href="https://twitter.com/xkcd">xkcd</a> 32 retweets</li><li><a href="https://twitter.com/seldo">seldo</a> 31 retweets</li><li><a href="https://twitter.com/jessiegender">jessiegender</a> 21 retweets</li><li><a href="https://twitter.com/SskeerMadness">SskeerMadness</a> 20 retweets</li><li><a href="https://twitter.com/Esqueer_">Esqueer_</a> 19 retweets</li><li><a href="https://twitter.com/bitandbang">bitandbang</a> 19 retweets</li><li><a href="https://twitter.com/molly0xFFF">molly0xFFF</a> 17 retweets</li><li><a href="https://twitter.com/ardenthistorian">ardenthistorian</a> 17 retweets</li><li><a href="https://twitter.com/JimSterling">JimSterling</a> 17 retweets</li><li><a href="https://twitter.com/Potatopolitics">Potatopolitics</a> 16 retweets</li>
+					<li><a href="https://twitter.com/xkcd">xkcd</a> 31 retweets</li><li><a href="https://twitter.com/seldo">seldo</a> 31 retweets</li><li><a href="https://twitter.com/jessiegender">jessiegender</a> 22 retweets</li><li><a href="https://twitter.com/SskeerMadness">SskeerMadness</a> 20 retweets</li><li><a href="https://twitter.com/Esqueer_">Esqueer_</a> 19 retweets</li><li><a href="https://twitter.com/bitandbang">bitandbang</a> 19 retweets</li><li><a href="https://twitter.com/molly0xFFF">molly0xFFF</a> 17 retweets</li><li><a href="https://twitter.com/ardenthistorian">ardenthistorian</a> 17 retweets</li><li><a href="https://twitter.com/JimSterling">JimSterling</a> 17 retweets</li><li><a href="https://twitter.com/Potatopolitics">Potatopolitics</a> 16 retweets</li>
 				</ol>
 			</div>
 		</div>
 
 		<h2 id="replies">Replies and Mentions</h2>
-		<h3>11.3% of my tweets are replies (×2,035)</h3>
+		<h3>11.3% of my tweets are replies (×2,037)</h3>
 		<div class="lo" style="--lo-stackpoint: 20em">
 			<div class="lo-c">
 				<h4>Most Replies To</h4>
 				<ol>
-					<li><a href="https://twitter.com/AliveDevil95">AliveDevil95</a> 766 replies</li><li><a href="https://twitter.fynn.be/">MVSde</a> 363 replies</li><li><a href="https://twitter.com/fweidemann14">fweidemann14</a> 137 replies</li><li><a href="https://twitter.com/thomas_hempel">thomas_hempel</a> 69 replies</li><li><a href="https://twitter.com/dqmhose">dqmhose</a> 26 replies</li>
+					<li><a href="https://twitter.com/AliveDevil95">AliveDevil95</a> 766 replies</li><li><a href="https://twitter.fynn.be/">MVSde</a> 365 replies</li><li><a href="https://twitter.com/fweidemann14">fweidemann14</a> 137 replies</li><li><a href="https://twitter.com/thomas_hempel">thomas_hempel</a> 69 replies</li><li><a href="https://twitter.com/dqmhose">dqmhose</a> 26 replies</li>
 				</ol>
 			</div>
 			<div class="lo-c">
 				<h4>Most Replies To (Last 12 months)</h4>
 				<ol>
-					<li><a href="https://twitter.fynn.be/">MVSde</a> 101 replies</li><li><a href="https://twitter.com/AliveDevil95">AliveDevil95</a> 50 replies</li><li><a href="https://twitter.com/fweidemann14">fweidemann14</a> 22 replies</li><li><a href="https://twitter.com/Kello_Ren">Kello_Ren</a> 15 replies</li><li><a href="https://twitter.com/thomas_hempel">thomas_hempel</a> 14 replies</li>
+					<li><a href="https://twitter.fynn.be/">MVSde</a> 103 replies</li><li><a href="https://twitter.com/AliveDevil95">AliveDevil95</a> 50 replies</li><li><a href="https://twitter.com/fweidemann14">fweidemann14</a> 22 replies</li><li><a href="https://twitter.com/Kello_Ren">Kello_Ren</a> 15 replies</li><li><a href="https://twitter.com/thomas_hempel">thomas_hempel</a> 14 replies</li>
 				</ol>
 			</div>
 		</div>
 		<h3>I’ve sent someone a mention 67 times (0.4%)</h3>
 
 		<h2 id="links">Most Frequent Sites I’ve Linked To</h2>
-		<h3>53.9% of the links I’ve posted are using the <code>https:</code> protocol  (3,014 of 5,596)</h3>
-		<h3>91.4% of the links I’ve posted in the last 12 months are using the <code>https:</code> protocol  (391 of 428)</h3>
+		<h3>53.9% of the links I’ve posted are using the <code>https:</code> protocol  (3,022 of 5,605)</h3>
+		<h3>91.7% of the links I’ve posted in the last 12 months are using the <code>https:</code> protocol  (399 of 435)</h3>
 
 		<div class="lo" style="--lo-stackpoint: 20em">
 			<div class="lo-c">
 				<h4>Top Domains</h4>
 				<ol>
-					<li><a href="https://twitter.com">twitter.com</a> 806 tweets</li><li><a href="https://youtu.be">youtu.be</a> 554 tweets</li><li><a href="https://bit.ly">bit.ly</a> 296 tweets</li><li><a href="https://youtube.com">youtube.com</a> 275 tweets</li><li><a href="https://heise.de">heise.de</a> 270 tweets</li><li><a href="https://theverge.com">theverge.com</a> 211 tweets</li><li><a href="https://xkcd.com">xkcd.com</a> 179 tweets</li><li><a href="https://instagram.com">instagram.com</a> 128 tweets</li><li><a href="https://github.com">github.com</a> 118 tweets</li><li><a href="https://puu.sh">puu.sh</a> 95 tweets</li>
+					<li><a href="https://twitter.com">twitter.com</a> 808 tweets</li><li><a href="https://youtu.be">youtu.be</a> 554 tweets</li><li><a href="https://bit.ly">bit.ly</a> 296 tweets</li><li><a href="https://youtube.com">youtube.com</a> 275 tweets</li><li><a href="https://heise.de">heise.de</a> 270 tweets</li><li><a href="https://theverge.com">theverge.com</a> 211 tweets</li><li><a href="https://xkcd.com">xkcd.com</a> 179 tweets</li><li><a href="https://instagram.com">instagram.com</a> 128 tweets</li><li><a href="https://github.com">github.com</a> 119 tweets</li><li><a href="https://puu.sh">puu.sh</a> 95 tweets</li>
 				</ol>
 			</div>
 			<div class="lo-c">
 				<h4>Top Hosts</h4>
 				<ol>
-					<li><a href="https://twitter.com">twitter.com</a> 803 tweets</li><li><a href="https://youtu.be">youtu.be</a> 554 tweets</li><li><a href="https://bit.ly">bit.ly</a> 296 tweets</li><li><a href="https://www.youtube.com">www.youtube.com</a> 259 tweets</li><li><a href="https://www.theverge.com">www.theverge.com</a> 176 tweets</li><li><a href="https://www.heise.de">www.heise.de</a> 150 tweets</li><li><a href="https://xkcd.com">xkcd.com</a> 138 tweets</li><li><a href="https://heise.de">heise.de</a> 120 tweets</li><li><a href="https://instagram.com">instagram.com</a> 117 tweets</li><li><a href="https://github.com">github.com</a> 103 tweets</li>
+					<li><a href="https://twitter.com">twitter.com</a> 805 tweets</li><li><a href="https://youtu.be">youtu.be</a> 554 tweets</li><li><a href="https://bit.ly">bit.ly</a> 296 tweets</li><li><a href="https://www.youtube.com">www.youtube.com</a> 259 tweets</li><li><a href="https://www.theverge.com">www.theverge.com</a> 176 tweets</li><li><a href="https://www.heise.de">www.heise.de</a> 150 tweets</li><li><a href="https://xkcd.com">xkcd.com</a> 138 tweets</li><li><a href="https://heise.de">heise.de</a> 120 tweets</li><li><a href="https://instagram.com">instagram.com</a> 117 tweets</li><li><a href="https://github.com">github.com</a> 104 tweets</li>
 				</ol>
 			</div>
 		</div>
 
-		<h2 id="shared">My tweets have been given about <span class="tag tag-lite tag-retweet">♻️ 589</span> retweets and <span class="tag tag-lite tag-favorite">❤️ 5,125</span> likes</h2>
+		<h2 id="shared">My tweets have been given about <span class="tag tag-lite tag-retweet">♻️ 589</span> retweets and <span class="tag tag-lite tag-favorite">❤️ 5,130</span> likes</h2>
 
 		<h2 id="emoji">Top 5 Emoji Used in Tweets</h2>
 		<ol>
-			<li>😁 used 318 times on 318 tweets</li><li>😅 used 90 times on 90 tweets</li><li>👍 used 84 times on 84 tweets</li><li>😂 used 82 times on 80 tweets</li><li>🤗 used 73 times on 73 tweets</li>
+			<li>😁 used 318 times on 318 tweets</li><li>😅 used 92 times on 92 tweets</li><li>👍 used 84 times on 84 tweets</li><li>😂 used 83 times on 81 tweets</li><li>🤗 used 73 times on 73 tweets</li>
 		</ol>
-		<p><em>188 unique emoji on 1,616 tweets (23.4% of all tweets***)</em></p>
+		<p><em>188 unique emoji on 1,621 tweets (23.5% of all tweets***)</em></p>
 		<h2 id="hashtags">Top 5 Hashtags</h2>
 		<ol>
 			<li><code>e32014</code> used 14 times </li><li><code>lptlive</code> used 14 times </li><li><code>wvp13</code> used 11 times </li><li><code>gronkhtv</code> used 10 times </li><li><code>build2015</code> used 10 times </li>
 		</ol>
-		<p><em>854 hashtags on 854 tweets (12.4% of all tweets***)</em></p>
+		<p><em>863 hashtags on 863 tweets (12.5% of all tweets***)</em></p>
 		<h2 id="swears">Top 5 Swear Words</h2>
 		<ol>
 			<li><code>s_it</code> used 33 times on 32 tweets</li><li><code>h_ll</code> used 14 times on 13 tweets</li><li><code>f_ck</code> used 13 times on 11 tweets</li><li><code>b_llshit</code> used 9 times </li><li><code>f_cked</code> used 7 times </li>
@@ -455,10 +431,6 @@ Maybe they should try Kena: Bridge of Spirits by <a href="https://twitter.com/em
 		<p><em>102 swear words on 98 tweets (1.4% of all tweets***)</em></p>
 		<p>***: does not include retweets</p>
 
-		<script>
-		var series = getSentimentsFromList( '#tweets-recent-home' );
-		makeSentimentChart( '.twtr-sentiment-chart', series );
-		</script>
 		<template id="rendered-twitter-link"><a href="/1234567890123456789/">twitter link</a></template>
 
 		</main>
